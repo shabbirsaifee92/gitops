@@ -8,9 +8,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/shabbirsaifee/gitops
+    repoURL: https://github.com/shabbirsaifee92/gitops
     targetRevision: HEAD
-    path: manifests
+    path: manifests/silly-app
   destination:
     server: https://kubernetes.default.svc
     namespace: silly-app
