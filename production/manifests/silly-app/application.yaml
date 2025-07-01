@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: silly-app
-        image: nginx:missing
+        image: nginx:latest
 ---
 apiVersion: v1
 kind: Service
